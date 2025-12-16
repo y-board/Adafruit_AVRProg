@@ -737,7 +737,7 @@ void Adafruit_AVRProg::updi_serial_term() {
   delay(10);
   DEBUG_PHYSICAL("updi serial term flushed\n");
   delay(10);
-  uart->end();
+  // uart->end();
   DEBUG_PHYSICAL("updi serial term closed\n");
   _updi_serial_inited = false;
 }
